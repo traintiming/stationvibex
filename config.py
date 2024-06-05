@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
@@ -22,13 +22,13 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "1471469091"))
+OWNER_ID = int(getenv("OWNER_ID", "6180148187"))
 
-START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAEL5olmGPWEXFq5JVQtvFpiKqx1mY3F4AACBwgAAssdOVf48RP1cE0UejQE")
+START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAyEFAASE55cxAAIBAmZgRGfcOKygPeNQx8SJDp60JP5lAAKeAAM6fg8kLHUhQvci89k1BA")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Idhaya X Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "HEY SIRI")
 
-POWERED_BY = getenv("POWERED_BY", "𝐈𝐃𝐇𝐀𝐘𝐀𝐍ᥫ᭡")
+POWERED_BY = getenv("POWERED_BY", "╰•★ SANJAI ★•╯")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -36,15 +36,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/balah0409/IdhayaXVibez",
+    "https://github.com/traintiming/stationvibex",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/idhayanvibezupdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/idhayanvibezsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamilanexpress")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tamil_anexpress_chat")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
